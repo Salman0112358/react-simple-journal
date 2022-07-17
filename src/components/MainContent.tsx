@@ -26,6 +26,14 @@ function MainContent(): JSX.Element {
         likes={5}
         postDate={{ month: "March", day: 3, year: 2003 }}
       />
+      <JournalEntry
+        title = {"Thinking about lunch"}
+        tags = {["food","pizza","food again"]}
+        body = {"I've been thinking about food a lot recently. Wish I could stop."}
+        views = {2000}
+        likes = {1}
+        postDate = {{ month: "July", day: 17, year: 2022 }}
+      />
       <section>
         <h2>Writing poetry</h2>
         <p>
